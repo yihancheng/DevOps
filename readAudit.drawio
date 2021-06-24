@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T08:33:32.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="LNTH6Zo81hfG7ImZ4ThR" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T08:36:25.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mATPyrzf_qvi-XvwusPZ" version="14.8.0" type="github">
   <diagram id="fYKfGPqdpj5STdfEeVyN" name="Page-1">
     <mxGraphModel dx="942" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -45,8 +45,19 @@
         <mxCell id="s__IYp2AZCWsRCQvnXPb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.51;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s__IYp2AZCWsRCQvnXPb-6" target="s__IYp2AZCWsRCQvnXPb-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="s__IYp2AZCWsRCQvnXPb-6" target="s__IYp2AZCWsRCQvnXPb-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-6" value="队列" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="188.5" width="100" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="s__IYp2AZCWsRCQvnXPb-8" target="s__IYp2AZCWsRCQvnXPb-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="100" />
+              <mxPoint x="460" y="100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-8" value="线程1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="138" width="70" height="30" as="geometry" />
@@ -92,6 +103,23 @@
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-40" value="对比数媒和能力平台的会员标识信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="955" y="189" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-42" value="稽核结果入库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="75" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="s__IYp2AZCWsRCQvnXPb-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-43" value="定时任务" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.startup_task;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="290" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-48" value="检查队列是否处理完毕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="840" y="320" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-50" value="更新任务处理状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

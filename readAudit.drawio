@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T08:19:30.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="p6GqdeFeSU227wZlHziJ" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T08:31:12.225Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="e4YPHtKosuVPMlls9u6h" version="14.8.0" type="github">
   <diagram id="fYKfGPqdpj5STdfEeVyN" name="Page-1">
     <mxGraphModel dx="942" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -46,16 +46,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-6" value="队列" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="188.5" width="100" height="29" as="geometry" />
+          <mxGeometry x="750" y="188.5" width="100" height="29" as="geometry" />
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-8" value="线程1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="138" width="70" height="30" as="geometry" />
+          <mxGeometry x="900" y="138" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-9" value="线程n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="238" width="70" height="30" as="geometry" />
+          <mxGeometry x="900" y="238" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-25" value=".&lt;br&gt;.&lt;br&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="855" y="188.5" width="40" height="20" as="geometry" />
+          <mxGeometry x="915" y="188.5" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.063;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s__IYp2AZCWsRCQvnXPb-26" target="s__IYp2AZCWsRCQvnXPb-2">
           <mxGeometry relative="1" as="geometry" />
@@ -66,11 +66,29 @@
         <mxCell id="s__IYp2AZCWsRCQvnXPb-28" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: &amp;#34;times new roman&amp;#34; , serif&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;checkAllMemberInfo&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="125" y="60" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="s__IYp2AZCWsRCQvnXPb-29" value="检查sftp文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-29" value="检查文件清单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="130" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="s__IYp2AZCWsRCQvnXPb-30" value="检查sftp文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-30" value="检查增量稽核文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="260" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-31" value="检查待处理数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="193" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-32" value="增量稽核" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-33" value="全量稽核" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="138" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-34" value="遍历清单中的文件入库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-35" value="稽核文件入库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-38" value="解析文件数据放入队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="184.5" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

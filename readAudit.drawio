@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T08:31:12.225Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="e4YPHtKosuVPMlls9u6h" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T08:33:32.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="LNTH6Zo81hfG7ImZ4ThR" version="14.8.0" type="github">
   <diagram id="fYKfGPqdpj5STdfEeVyN" name="Page-1">
     <mxGraphModel dx="942" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
           <mxGeometry x="500" y="193" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-32" value="增量稽核" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="90" y="320" width="55" height="20" as="geometry" />
+          <mxGeometry x="82.5" y="320" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-33" value="全量稽核" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="82.5" y="138" width="55" height="20" as="geometry" />
@@ -89,6 +89,9 @@
         </mxCell>
         <mxCell id="s__IYp2AZCWsRCQvnXPb-38" value="解析文件数据放入队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="660" y="184.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s__IYp2AZCWsRCQvnXPb-40" value="对比数媒和能力平台的会员标识信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="955" y="189" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
